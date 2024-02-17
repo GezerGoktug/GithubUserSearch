@@ -1,0 +1,29 @@
+@media (max-width:992px){
+    .card{
+        width: 60%;
+    }
+}
+@media (max-width:768px){
+    .card{
+        width: 80%;
+    }
+    .search button{
+        padding: 5px 10px;
+    }
+}
+@media (max-width:562px){
+    .card{
+        width: 100%;
+    }
+    .user-info-card-container{
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width:420px){
+    .user-info-card-container{
+        display: flex !important;
+        flex-direction: column ;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

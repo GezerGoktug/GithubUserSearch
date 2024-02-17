@@ -1,0 +1,15 @@
+@import "base/reset";
+@import "components/card";
+@import "components/search";
+.user-container{
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: aliceblue    ;
+    font-size: 40px ;
+    text-shadow: 2px 2px 10px aliceblue;
+}
